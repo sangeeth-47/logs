@@ -135,7 +135,7 @@
       try {
         const token = localStorage.getItem("authToken");
         if (!token) return showToast("Unauthorized access");
-        const res = await fetch(`${API_BASE}/getSecureDataDB`, {
+        const res = await fetch(`${API_BASE}/getSecureDataLogs`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
