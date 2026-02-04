@@ -31,7 +31,7 @@
               <tr>
                 <th class="row-number">#</th>
                 <th>IP Address<br><input class="filter-input" data-col="1" placeholder="IP" /></th>
-                <th>Visit Time<br><input class="filter-input" data-col="2" placeholder="Time" /></th>
+                <th>CreatedAt<br><input class="filter-input" data-col="2" placeholder="Time" /></th>
                 <th>Method<br><input class="filter-input" data-col="3" placeholder="Method" /></th>
                 <th>Referrer<br><input class="filter-input" data-col="4" placeholder="Referrer" /></th>
                 <th>Device<br><input class="filter-input" data-col="5" placeholder="Device" /></th>
